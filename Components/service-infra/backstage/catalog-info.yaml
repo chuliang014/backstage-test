@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Backstage
+  description: Service-catalog
+  annotations:
+     pagerduty.com/integration-key: bdb4d82516854d01d0ba26cc67c09b1d
+     github.com/project-slug: backstage/backstage
+     backstage.io/edit-url: https://ghe.tusimple.io/chuliang-zhang/backstage
+  links:
+    - url: https://docs.google.com/document/d/1lFTtsCuLZlBLKA5U4d0wPIltg9l0xVt54hx3QuupOUo/edit#
+      title: Design Doc
+      icon: dashboard
+    - url: https://backstage.io/docs/overview/what-is-backstage
+      title: What is Backstage
+      icon: web
+    - url: https://backstage.io/plugins
+      title: Plugins
+      icon: extension
+  
+  tags:
+    - backstage
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:chuliang-zhang

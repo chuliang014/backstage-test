@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Rancher
+  description: Rancher
+  annotations:
+     pagerduty.com/integration-key: bdb4d82516854d01d0ba26cc67c09b1d
+  tags:
+    - rancher
+  links:
+    - url: https://rancher.sm.tusimple.ai
+      title: Rancher Website
+      icon: dashboard
+    - url: https://confluence.tusimple.ai/pages/viewpage.action?pageId=178941145
+      title: Playbook
+      icon: MenuBook
+spec:
+  type: service
+  lifecycle: production
+  owner: us-infra-sre
+  
+
+
