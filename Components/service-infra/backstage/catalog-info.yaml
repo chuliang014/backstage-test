@@ -5,7 +5,7 @@ metadata:
   description: Service-catalog
   annotations:
      pagerduty.com/integration-key: bdb4d82516854d01d0ba26cc67c09b1d
-     github.com/project-slug: Tusimple/backstage
+     backstage.io/view-url: https://github.com/chuliang014/backstage-test
      backstage.io/edit-url: https://github.com/chuliang014/backstage-test/edit/main/Components/
   links:
     - url: https://docs.google.com/document/d/1lFTtsCuLZlBLKA5U4d0wPIltg9l0xVt54hx3QuupOUo/edit#
