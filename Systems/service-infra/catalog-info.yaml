@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: Rancher
+  description: Everything related to Rancher
+  tags:
+    - rancher
+spec:
+  owner: us-infra-sre

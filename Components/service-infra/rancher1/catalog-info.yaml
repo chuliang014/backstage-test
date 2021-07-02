@@ -18,4 +18,5 @@ spec:
   type: service
   lifecycle: production
   owner: user:huadong-hu
-  subcomponentOf: Rancher
+  system: Rancher
+  #subcomponentOf: Rancher
