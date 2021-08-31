@@ -17,7 +17,8 @@ metadata:
     - url: https://backstage.io/plugins
       title: Plugins
       icon: extension
-  
+  channel:
+    - eng-hub-service-catalog
   tags:
     - backstage
 spec:
