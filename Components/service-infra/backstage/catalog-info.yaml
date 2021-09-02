@@ -20,12 +20,6 @@ metadata:
   channel:
     - url: https://tusimple.slack.com/archives/C023RRAFDTP
       title: eng-hub-service-catalog
-    - url: https://tusimple.slack.com/archives/CGLNB3NQN
-      title: random-talk
-    - url: https://tusimple.slack.com/archives/CK5PHJFC4
-      title: us-everyone
-    - url: https://backstage.io/docs/overview/what-is-backstage
-      title: us-remote-access
   tags:
     - backstage
 spec:
