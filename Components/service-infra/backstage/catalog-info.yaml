@@ -20,6 +20,7 @@ metadata:
   channel:
     - url: https://tusimple.slack.com/archives/C023RRAFDTP
       title: eng-hub-service-catalog
+  jira: https://jira.tusimple.ai/secure/CreateIssue.jspa?pid=11425
   tags:
     - backstage
 spec:
