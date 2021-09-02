@@ -18,8 +18,14 @@ metadata:
       title: Plugins
       icon: extension
   channel:
-    - eng-hub-service-catalog
-    - random-talk
+    - url: https://tusimple.slack.com/archives/C023RRAFDTP
+      title: eng-hub-service-catalog
+    - url: https://tusimple.slack.com/archives/CGLNB3NQN
+      title: random-talk
+    - url: https://tusimple.slack.com/archives/CK5PHJFC4
+      title: us-everyone
+    - url: https://tusimple.slack.com/archives/CVD8X0MV4
+      title: us-remote-access
   tags:
     - backstage
 spec:
