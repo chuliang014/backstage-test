@@ -1,1 +1,12 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-svc
+  description: test
+  tags:
+    - infra-sre,werwerewr,dsfdsfdsf
+  links: "[[object Object],[object Object]]"
+spec:
+  type: service
+  lifecycle: production
+  owner: cn-algorithm-localization-lidar
