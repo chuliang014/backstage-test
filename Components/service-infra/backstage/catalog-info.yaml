@@ -18,12 +18,8 @@ metadata:
     - url: https://backstage.io/plugins
       title: Plugins
       icon: extension
-  channel:[{ 
-            url: https://tusimple.slack.com/archives/C023RRAFDTP,
-            title: eng-hub-service-catalog},
-            url: https://tusimple.slack.com/archives/C023RRAFDTP,
-            title: eng-hub-service-catalog},
-            ]
+  channel:[{ url: https://tusimple.slack.com/archives/C023RRAFDTP,title: eng-hub-service-catalog},
+  {url: https://tusimple.slack.com/archives/C023RRAFDTP,title: eng-hub-service-catalog},]
   jira: https://jira.tusimple.ai/secure/CreateIssueDetails!init.jspa?pid=11425&components=16559&priority=3&issuetype=11225
   tags: [backstage, infra-sre, test]
 spec:
