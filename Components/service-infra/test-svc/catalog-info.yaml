@@ -1,1 +1,11 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-svc
+  description: test
+  tags:
+    ? "{ parameters.tags }"
+spec:
+  type: service
+  lifecycle: deprecated
+  owner: cn-algorithm-localization-slam
