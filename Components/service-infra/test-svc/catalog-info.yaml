@@ -1,1 +1,10 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-svc
+  description: test
+  tags: "[infra-sre,sdfsdf]"
+spec:
+  type: service
+  lifecycle: deprecated
+  owner: cn-algorithm-control
