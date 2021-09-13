@@ -1,1 +1,11 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-svc
+  description: test
+  tags: "[sdfsfsdf,werwerewr]"
+links: "[[object Object],[object Object]]"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: cn-algorithm-perception
