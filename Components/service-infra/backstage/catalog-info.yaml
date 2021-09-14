@@ -4,10 +4,9 @@ metadata:
   name: Backstage
   description: Service-catalog
   annotations:
-     pagerduty.com/integration-key: bdb4d82516854d01d0ba26cc67c09b1d
-     backstage.io/source-location: url:https://github.com/chuliang014/ride-backend-manager/
-     backstage.io/view-url: https://eng-hub.tusimple.io/
-#      backstage.io/edit-url: https://github.com/chuliang014/backstage-test/blob/main/Components/service-infra/backstage/catalog-info.yaml
+     - pagerduty.com/integration-key: bdb4d82516854d01d0ba26cc67c09b1d
+     - backstage.io/source-location: url:https://github.com/chuliang014/ride-backend-manager/
+     - backstage.io/view-url: https://eng-hub.tusimple.io/
   links:
     - url: https://docs.google.com/document/d/1lFTtsCuLZlBLKA5U4d0wPIltg9l0xVt54hx3QuupOUo/edit#
       title: Design Doc
@@ -20,7 +19,9 @@ metadata:
       icon: extension
   channel: [{ url: https://tusimple.slack.com/archives/C023RRAFDTP,title: eng-hub-service-catalog},{url: https://tusimple.slack.com/archives/C023RRAFDTP,title: eng-hub-service-catalog},]
   jira: https://jira.tusimple.ai/secure/CreateIssueDetails!init.jspa?pid=11425&components=16559&priority=3&issuetype=11225
-  tags: "[sdfsfsdf,werwerewr]"
+  tags: 
+    - infra-sre
+    - eng-hub
 spec:
   type: service
   lifecycle: experimental
