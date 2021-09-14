@@ -1,1 +1,17 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-svc
+  description: test
+  tags:
+    - infra-sre
+    - sdfsdf
+  links:
+    - title: onboarding tutorial
+      url: https://google.com
+    - title: sdfsdf
+      url: eng-hub.tusimple.io
+spec:
+  type: service
+  lifecycle: experimental
+  owner: cn-algorithm-control
