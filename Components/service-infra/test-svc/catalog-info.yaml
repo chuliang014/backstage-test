@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-svc
+  description: test
+  jira: https://jira.tusimple.ai/secure/CreateIssueDetails!init.jspa?pid=11425&components=16559&priority=3&issuetype=11225
+  tags:
+    - infra-sre
+  links: ""
+  channel: ""
+spec:
+  type: service
+  lifecycle: deprecated
+  owner: cn-algorithm-perception-prediction
