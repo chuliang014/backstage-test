@@ -3,7 +3,12 @@ kind: Component
 metadata:
   name: test-svc
   description: test
-  jira: https://jira.tusimple.ai/secure/CreateIssueDetails!init.jspa?pid=11425&components=16559&priority=3&issuetype=11225
+  annotations:
+    github.com/project-slug: TuSimple/service-catalog
+    backstage.io/source-location: url:https://ghe.tusimple.io/TuSimple/infra-ecos
+    pagerduty.com/integration-key: a90da5b1bbac470ad0066e25090ebc78
+    backstage.io/view-url: ecos.sm.tusimple.ai
+  jira: jira.tusimple.ai/secure/CreateIssueDetails!init.jspa?pid=11425&components=16559&priority=3&issuetype=11225
   tags:
     - infra-sre
   links:
@@ -11,8 +16,8 @@ metadata:
       url: https://google.com
   channel:
     - title: eng-hub-service-catalog
-      url: https://tusimple.slack.com/archives/C023RRAFDTP
+      url: tusimple.slack.com/archives/C023RRAFDTP
 spec:
   type: service
-  lifecycle: production
-  owner: cn-algorithm-localization-slam
+  lifecycle: experimental
+  owner: cn-algorithm-perception-prediction
