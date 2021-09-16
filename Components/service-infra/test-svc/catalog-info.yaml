@@ -5,9 +5,9 @@ metadata:
   description: test
   annotations:
     github.com/project-slug: TuSimple/service-catalog
-    backstage.io/source-location: url:https://ghe.tusimple.io/TuSimple/infra-ecos/
+    backstage.io/source-location: url:<service-ghe-repo-url>
     pagerduty.com/integration-key: a90da5b1bbac470ad0066e25090ebc78
-    backstage.io/view-url: https://ecos.sm.tusimple.ai
+    backstage.io/view-url: https://ecos.sm.tusimple.ai/
   jira: https://jira.tusimple.ai/secure/CreateIssueDetails!init.jspa?pid=11425&components=16559&priority=3&issuetype=11225
   tags:
     - infra-sre
@@ -15,9 +15,9 @@ metadata:
     - title: onboarding tutorial
       url: https://google.com
   channel:
-    - title: ENG-HUB
+    - title: eng-hub-service-catalog
       url: https://tusimple.slack.com/archives/C023RRAFDTP
 spec:
   type: service
   lifecycle: production
-  owner: cn-infra-sre-networks
+  owner: cn-algorithm-perception-deep
